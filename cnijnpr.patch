@@ -1,0 +1,11 @@
+--- cnijfilter-source-3.70-1/cngpijmon/cnijnpr/cnijnpr/cnijnpr.c	2011-10-07 01:50:02.000000000 +0200
++++ cnijfilter-source-3.70-1.new/cngpijmon/cnijnpr/cnijnpr/cnijnpr.c	2021-08-16 10:26:14.056540057 +0200
+@@ -33,7 +33,7 @@
+ #include <signal.h>
+ #include <sys/ioctl.h>
+ #include <net/if.h>
+-#include <sys/sysctl.h>
++#include <linux/sysctl.h>
+ #include <config.h>
+ #include <fcntl.h>
+ 
